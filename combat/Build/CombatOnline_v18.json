@@ -1,0 +1,12 @@
+{
+"companyName": "NadGames",
+"productName": "Combat Online",
+"dataUrl": "CombatOnline_v18.data.unityweb",
+"wasmCodeUrl": "CombatOnline_v18.wasm.code.unityweb",
+"wasmFrameworkUrl": "CombatOnline_v18.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#1f1057"
+}
