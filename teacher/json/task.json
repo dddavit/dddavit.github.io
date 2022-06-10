@@ -1,0 +1,13 @@
+[
+{"id":1,"type":1,"des":"Sign in 1 time","parameter":1,"awardType":1,"count":300},
+{"id":2,"type":2,"des":"Stop students from fighting 1 time","parameter":1,"awardType":1,"count":100},
+{"id":3,"type":10,"des":"Conduct 1 class meeting","parameter":1,"awardType":1,"count":150},
+{"id":4,"type":11,"des":"Recruit 1 teacher","parameter":1,"awardType":1,"count":300},
+{"id":5,"type":12,"des":"Recruit 2 students","parameter":2,"awardType":1,"count":600},
+{"id":6,"type":13,"des":"Give 2 extra lessons to students","parameter":2,"awardType":1,"count":100},
+{"id":7,"type":3,"des":"Take a gym class","parameter":1,"awardType":1,"count":150},
+{"id":8,"type":4,"des":"Catch 3 students cheating","parameter":3,"awardType":1,"count":100},
+{"id":9,"type":5,"des":"Sharpen 3 pencils","parameter":3,"awardType":1,"count":150},
+{"id":10,"type":6,"des":"Grading 3 students' papers","parameter":3,"awardType":1,"count":100},
+{"id":11,"type":7,"des":"View 3 students' drawings","parameter":3,"awardType":1,"count":150}
+]
