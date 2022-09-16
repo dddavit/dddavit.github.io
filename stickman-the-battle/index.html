@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Stickman: The Battle</title>
+<link href="bundle.js" rel="preload" as="script" />
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Accept-CH" content="DPR" />
+<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no, minimal-ui" />
+</head>
+<body>
+<div class="preloadpacman">
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</div>
+<script type="text/javascript">
+var options = {
+   /* "loader": "unity2020",
+	"loaderOptions": {
+		"unityLoaderUrl": "Build/StarbaseGunshipWeb.loader.js",
+		"unityConfigOptions": {
+			"codeUrl": "Build/StarbaseGunshipWeb.wasm.br",
+			"dataUrl": "Build/StarbaseGunshipWeb.data.br",
+			"frameworkUrl": "Build/StarbaseGunshipWeb.framework.js.br"
+		}
+	},*/
+	"loader": "5.6.x",
+    "loaderOptions": {
+    "moduleJsonUrl": "81d2b74b9a23939c4801c8a23dc058b7.json",
+    "unityLoaderUrl": "../../unityloaders/UnityLoader-v3.js"
+	},
+    "gameName": "Stickman: The Battle",
+	"videoThumbnail": "stickman-the-battle.m4a",
+	"author": "DEVELOPER",
+    
+	
+	
+	
+	"showAdOnExternal": false,
+    "showAdOnInternal": false,
+    "totalSize": "67 MB",
+    "thumbnail": "fury-bike-rider-cover.jpg",
+    "minTimeBetweenMidrollAdsInMs": 9999999999999,
+    "minTimeBetweenRewardedAdsInMs": 9999999999999,
+    "noMidrollAdInFirstMinutes": 99999999999999999,
+    "noRewardedAdInFirstMinutes": 0,
+    "allowFullscreen": true,
+    "categoryLink": "https://igroutka.ru",
+    "gameLink": "https://igroutka.ru",
+};
+
+function loadScript(url, async, callback) {
+    var head = document.head;
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = url;
+    if (async) {
+        script.async = true;
+    }
+    script.onreadystatechange = callback;
+    script.onload = callback;
+    head.appendChild(script);
+}
+
+function showConsent() {
+    try {
+        var str = localStorage.getItem("IUB_BANNER_SHOWN");
+        if (!str) {
+            return true;
+        }
+        if (str === 'false') {
+            return false;
+        } else {
+            return true;
+        }
+    } catch (e) {
+        return true;
+    }
+}
+
+if (false) {
+    options.showConsent = showConsent();
+}
+if (false) {
+    options.showCCPA = showConsent();
+}
+var SDK_READY = false;
+var GF_READY = false;
+var GF_LOAD_CALLED = false;
+loadScript("bundle.js", true, function() {
+    Crazygames.load(options);
+
+    loadScript("../../sdk.js", true, function() {
+        SDK_READY = true;
+
+    });
+});
+</script>
+</body>
+</html>
