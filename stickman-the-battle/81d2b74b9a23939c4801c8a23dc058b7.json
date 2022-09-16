@@ -1,0 +1,16 @@
+{
+"companyName": "Your studio",
+"productName": "stickmanarcher",
+"productVersion": "1.0.6",
+"dataUrl": "10ab1f82bf822d5fefdb161743732fcc.unityweb",
+"wasmCodeUrl": "399824ef50a83e9bb86bb0e0f7944ae4.unityweb",
+"wasmFrameworkUrl": "8db804a1cf0980a202bba54a093e54ed.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.37f1"
+}
