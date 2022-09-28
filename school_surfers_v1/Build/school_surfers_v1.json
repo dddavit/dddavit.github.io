@@ -1,0 +1,12 @@
+{
+"companyName": "School Surfers",
+"productName": "School Surfers",
+"dataUrl": "school_surfers_v1.data.unityweb",
+"wasmCodeUrl": "school_surfers_v1.wasm.code.unityweb",
+"wasmFrameworkUrl": "school_surfers_v1.wasm.framework.unityweb",
+"TOTAL_MEMORY": 134217728,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
