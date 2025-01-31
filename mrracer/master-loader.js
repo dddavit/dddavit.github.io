@@ -25,7 +25,7 @@ if (!window.config.unityWebglLoaderUrl)
 	}
 }
 var sdkScript = document.createElement("script");
-sdkScript.src = "https://lablockedgames.com/poki.js", sdkScript.onload = function ()
+sdkScript.src = "https://dddavit.github.io/mrracer/poki.js", sdkScript.onload = function ()
 {
 	var i = document.createElement("script");
 	i.src = root + loader, document.body.appendChild(i)
